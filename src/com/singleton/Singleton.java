@@ -1,4 +1,8 @@
 
+/**
+ * É muito fácil implementar um Singleton desleixado. 
+ * Você só precisa ocultar o construtor e implementar um método de criação estático.
+ */
 public final class Singleton {
 
     private static Singleton instancia;
